@@ -1,0 +1,301 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+hr {
+    border:2px solid #ffffff;
+    width:100px;
+}
+
+header {
+    height: 360px;
+    z-index: 10;
+}
+.header-banner {
+    background-color: #333;
+    background-image: url('inn1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    
+}
+
+header h1 {
+    background-color: rgba(183, 183, 164, 1);
+    color: #fff;
+    padding: 0 1rem;
+    font-size: 60px;
+    position: absolute;
+    top: 2rem; 
+    left: 2rem;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #292f36;
+    position:sticky;
+    z-index: 10;
+}
+
+nav div {
+    color: white;
+    font-size: 2rem;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    visibility: hidden;
+}
+.visible-title {
+    visibility: visible;
+}
+
+nav ul { 
+    list-style-type: none;
+    margin: 0 2% auto 0;
+    padding-left: 0;
+    text-align: right;
+    max-width: 100%;
+}
+nav ul li { 
+    display: inline-block; 
+    line-height: 60px;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none; 
+    color: #a9abae;
+}
+
+a:hover {
+  color: orange;
+  font-size: 30px;
+  
+}
+
+
+.button-intro {
+    padding:1.5em 3em;
+    background:#333;
+    color:#ffffff;
+    font-weight: 500;
+    border:2px solid #333;
+    text-transform: uppercase;
+    transition:all 0.2s linear;
+}
+
+.button-intro:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.about {
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    padding-top: 15em;
+    overflow: auto;
+}
+
+.about_h1 {
+    text-align: center;
+    display: block;
+}
+
+
+.content-wrap {
+    width:100%;
+    margin: 0 auto;
+}
+
+
+.col-narrow img {
+ 
+}
+
+
+.col-wide {
+    width:100%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.col-wide p {
+    text-align: center;
+    display: block;
+    
+}
+
+.content-wrap {
+   text-align: center;
+}
+
+.guest {
+    display: block;
+    padding: 5em 0;
+    overflow: auto;
+    text-align: center;
+    background: #b7b7a4;
+}
+
+div.gallery {
+    background: white;
+}
+
+div.gallery:hover {
+  border: 4px solid #777;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.9999%;
+}
+
+.content-wrap {
+    text-align: center;
+    display: block;
+}
+
+.footer {
+    color: white;
+    overflow: auto;
+    background: #333;
+}
+
+@media (max-width:1170px) {
+    .name {
+        font-size: 60px;
+        top: 55%;
+        left: 31%;
+    }
+
+    
+    .col-narrow {
+        margin: 3em 0;
+        position: center;
+        top: 1%;
+        left: 45%;
+        box-shadow: 5px 5px 5px 5px darkgrey;
+    }
+    
+    
+    .col-wide {
+        width:66%;
+    }
+    
+}
+
+@media (max-width:1024px) {
+
+    .about_h1 {
+        text-align: center;
+    }
+    
+    .col-narrow {
+        position: inherit;
+        
+    }
+    
+    }
+
+@media (max-width:768px) {
+
+    .col-wide {
+        width:100%;
+        text-align: center;
+
+    }
+    
+    .col-narrow {
+        text-align: center;
+        float: none;
+    }
+    
+    .about {
+    padding: 2em 0;
+    }
+        
+    .work {
+    padding: 2em 0;
+}
+    
+   
+    .footer {
+        padding:2em 0;
+    }
+    
+    }
+
+@media (max-width:425px) {
+.intro { 
+    padding:5em 0;
+}
+    }
+        
+.navigation a {
+    font-size: 12px;
+    }  
+    
+    }
+    
+    
+@media (max-width:375px) {
+
+
+    @media (max-width:320px) {
+        .content-intro {
+            padding-top:5em;
+        }
+    }
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
