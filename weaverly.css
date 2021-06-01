@@ -8,7 +8,6 @@ html body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
 hr {
     border:2px solid #ffffff;
     width:100px;
@@ -18,6 +17,7 @@ header {
     height: 360px;
     z-index: 10;
 }
+
 .header-banner {
     background-color: #333;
     background-image: url('inn1.jpeg');
@@ -26,7 +26,6 @@ header {
     background-size: cover;
     width: 100%;
     height: 500px;
-    
 }
 
 header h1 {
@@ -63,6 +62,7 @@ nav div {
     left: 2%;
     visibility: hidden;
 }
+
 .visible-title {
     visibility: visible;
 }
@@ -79,6 +79,7 @@ nav ul li {
     line-height: 60px;
     margin-left: 10px;
 }
+
 nav ul li a {
     text-decoration: none; 
     color: #a9abae;
@@ -87,9 +88,7 @@ nav ul li a {
 a:hover {
   color: orange;
   font-size: 30px;
-  
 }
-
 
 .button-intro {
     padding:1.5em 3em;
@@ -106,7 +105,6 @@ a:hover {
     color: black;
 }
 
-
 .about {
     display: inline-block;
     width: 100%;
@@ -120,17 +118,10 @@ a:hover {
     display: block;
 }
 
-
 .content-wrap {
     width:100%;
     margin: 0 auto;
 }
-
-
-.col-narrow img {
- 
-}
-
 
 .col-wide {
     width:100%;
@@ -138,13 +129,11 @@ a:hover {
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    
 }
 
 .col-wide p {
     text-align: center;
     display: block;
-    
 }
 
 .content-wrap {
@@ -165,7 +154,6 @@ div.gallery {
 
 div.gallery:hover {
   border: 4px solid #777;
-
 }
 
 div.gallery img {
@@ -177,6 +165,7 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
 .responsive {
   padding: 0 6px;
   float: left;
@@ -200,7 +189,6 @@ div.desc {
         top: 55%;
         left: 31%;
     }
-
     
     .col-narrow {
         margin: 3em 0;
@@ -210,74 +198,60 @@ div.desc {
         box-shadow: 5px 5px 5px 5px darkgrey;
     }
     
-    
     .col-wide {
         width:66%;
     }
-    
 }
 
 @media (max-width:1024px) {
-
     .about_h1 {
         text-align: center;
     }
     
     .col-narrow {
-        position: inherit;
-        
+        position: inherit; 
     }
-    
-    }
+  }
 
 @media (max-width:768px) {
-
     .col-wide {
         width:100%;
         text-align: center;
-
     }
-    
+
     .col-narrow {
         text-align: center;
         float: none;
     }
     
     .about {
-    padding: 2em 0;
+        padding: 2em 0;
     }
         
     .work {
-    padding: 2em 0;
-}
-    
+        padding: 2em 0;
+    } 
    
     .footer {
         padding:2em 0;
     }
     
-    }
+ }
 
 @media (max-width:425px) {
-.intro { 
-    padding:5em 0;
-}
+    .intro { 
+        padding:5em 0;
     }
         
 .navigation a {
     font-size: 12px;
     }  
-    
-    }
-    
-    
-@media (max-width:375px) {
+  }
 
-
-    @media (max-width:320px) {
-        .content-intro {
-            padding-top:5em;
-        }
+@media (max-width:320px) {
+    .content-intro {
+        padding-top:5em;
+       }
     }
 @media only screen and (max-width: 700px) {
   .responsive {
