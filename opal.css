@@ -1,9 +1,8 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-
-    
 }
+
 html{
     box-sizing: border-box;
 }
@@ -26,12 +25,10 @@ body {
     margin-top: .5em;
     margin-bottom: .2em;
     text-shadow: 2px 2px #84a98c;
- 
 }
 
 .navigation {
-   background: #333;
-    
+   background: #333;  
 }
 
 .navigation ul {
@@ -69,7 +66,6 @@ body {
     overflow: visible;
 }
 
-
 .column {
     float: left;
     width: 33.3%;
@@ -85,8 +81,7 @@ body {
 
 .card img {
     object-fit: cover;
-    height: 400px;
-    
+    height: 400px;  
 }
 
 .about-section {
@@ -97,9 +92,8 @@ body {
 }
 
 .container {
-    padding: 0 16px;
-    line-height: 1.8; 
-    
+   padding: 0 16px;
+   line-height: 1.8;    
 }
 
 .container::after, .row::after {
@@ -129,8 +123,6 @@ body {
   display: block;
   margin: 33px 33px;
   margin-top: -100px;
- 
-  
 }
 
 .dropdown-content {
@@ -144,8 +136,6 @@ body {
   z-index: 1;
 }
 
-
-
 .ourgallery {
     padding: 4em 0;
     overflow: auto;
@@ -156,8 +146,7 @@ body {
     margin-bottom: 1em;
 }
 
-div.gallery {
-   
+div.gallery {  
     background: white;
     margin-left: .5em;
     margin-right: .5em;
@@ -170,8 +159,7 @@ div.gallery:hover {
 div.gallery img {
     width: 200px;
     height: 200px;
-    object-fit: cover;
-    
+    object-fit: cover;   
 }
 
 #cf6_image {
@@ -184,13 +172,10 @@ div.gallery img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
-  
 }
 
 #cf6_image:hover {
   background-image:url("cf6wom.jpeg");
-
 }
 
 #cf7_image {
@@ -203,15 +188,11 @@ div.gallery img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
-  
 }
 
 #cf7_image:hover {
   background-image:url("cf7wom.jpeg");
   background-size: cover;
-  
-
 }
 
 #cf8_image {
@@ -224,14 +205,10 @@ div.gallery img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
-  
 }
 
 #cf8_image:hover { 
   background-image:url("cf8wom.jpeg");
-  
-  
 }
 
 #cf9_image {
@@ -243,21 +220,18 @@ div.gallery img {
   background-image:url("earing.jpeg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  
-  
+  background-repeat: no-repeat; 
 }
 
 #cf9_image:hover {
   background-image:url("cf9wom.jpeg");
-  
-  
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
 }
+
 .responsive {
     padding: 0 1px;
     float: left;
@@ -284,7 +258,6 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
-
 }
 
 input[type=submit]:hover {
@@ -304,7 +277,6 @@ input[type=submit]:hover {
   width: 50%;
   margin-top: 6px;
   padding: 20px;
-   
 }
 
 /* Clear floats after the columns */
@@ -345,6 +317,7 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
 
 @media screen and (max-width: 650px) {
   .column {
@@ -364,3 +337,4 @@ input[type=submit]:hover {
   content: "";
   display: table;
   clear: both;
+}
